@@ -1,0 +1,11 @@
+# KiCad-generated backups and lock files
+*.bak
+*.bck
+*.lck
+*-backups/
+~*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+

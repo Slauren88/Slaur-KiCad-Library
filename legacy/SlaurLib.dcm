@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP8266-07
+D ESP8266-07
+K ESP07 ESP8266-07 ESP8266
+$ENDCMP
+#
+$CMP LMR23630ADDA
+D 3 A, 36V Step-Down Switching Regulator, SOIC-8
+K Step-Down Switching Regulator Synchronus
+F http://www.ti.com/lit/ds/symlink/lmr23630.pdf
+$ENDCMP
+#
+$CMP MCP4561
+D 8-Bit Single I2C Digital POT with Nonvolatile Memory
+K DIGITAL POT I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22107B.pdf
+$ENDCMP
+#
+$CMP RaspberryPi_CM3L
+D Raspberry Pi Compute Module 3 Lite (CM3L)
+K Raspberry Pi Compute Module Lite CM3L RPi
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_2p0.pdf
+$ENDCMP
+#
+$CMP TSS721
+D TSS721
+K TSS721 Meter-Bus Transceiver MBUS
+F http://www.ti.com/lit/ds/symlink/tss721a.pdf
+$ENDCMP
+#
+$CMP TUSB8020B
+D two port USB 3.0 Hub
+K USB3.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb8020b.pdf
+$ENDCMP
+#
+#End Doc Library

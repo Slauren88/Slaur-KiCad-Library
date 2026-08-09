@@ -1,0 +1,119 @@
+(footprint "SK6812"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf")
+	(tags "Adafruit Neopixel SK6812 WS2812")
+	(property "Reference" "REF**"
+		(at 0 3.6 0)
+		(layer "F.SilkS")
+		(uuid "26ea24d6-73f4-43b6-8b5c-82bc6854b67c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812"
+		(at 0 -3.6 0)
+		(layer "F.Fab")
+		(uuid "85a9ccb5-d658-41c7-8ea7-4c8254548403")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6785aca-9092-4f16-9377-28ff903bd15b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb8161a3-6ccd-49ce-9b1e-83b74c587beb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe6a548-7da6-497e-8e86-2bd2652c6282")
+	)
+	(fp_line
+		(start -2.5 -0.8)
+		(end -2.5 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6760ab18-f241-4066-90a7-bf4853a59b67")
+	)
+	(fp_line
+		(start 2.5 -0.8)
+		(end 2.5 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a88262d-e6a0-47be-99db-cc052ec77e8d")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92407eef-9a8f-49ed-b5be-db623497e4b1")
+	)
+	(pad "1" smd rect
+		(at 2.3 1.6)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71b92009-c83e-48cb-87c1-caa7d8869913")
+	)
+	(pad "2" smd rect
+		(at 2.3 -1.6)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1086ece5-f6d6-457a-aca0-f19a9d5a8978")
+	)
+	(pad "3" smd rect
+		(at -2.3 -1.6)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d49f2a8-b197-49a2-964b-12a9b6a95b66")
+	)
+	(pad "4" smd rect
+		(at -2.3 1.6)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1990715-75e7-454a-999b-dbf37fde293a")
+	)
+	(embedded_fonts no)
+)

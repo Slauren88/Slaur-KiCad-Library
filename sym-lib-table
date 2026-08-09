@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SlaurLib") (type "KiCad") (uri "${SLAURLIB_DIR}/symbols/SlaurLib.kicad_sym") (options "") (descr "Slaur custom symbols"))
+)
